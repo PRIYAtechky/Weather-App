@@ -17,7 +17,7 @@ This Weather App provides current weather information for a specified location. 
 - **HTML:** For structuring the web page.
 - **CSS:** For styling and animations.
 - **JavaScript:** For fetching and displaying weather data.
-- 
+  
 ## Author
 
 Padmapriya Sravanaperumal
