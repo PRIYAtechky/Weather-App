@@ -20,4 +20,4 @@ This Weather App provides current weather information for a specified location. 
   
 ## Author
 
-Padmapriya Sravanaperumal
+Padmapriya Saravanaperumal
