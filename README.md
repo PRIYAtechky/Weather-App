@@ -4,7 +4,7 @@
 
 This Weather App provides current weather information for a specified location. It features a simple and user-friendly interface that displays the temperature, weather condition, and an icon representing the weather.
 
-<img  src="https://thumbs.dreamstime.com/b/weather-icons-set-high-quality-photo-324247882.jpg" width="50%" height="10%">
+<img src="https://cdn.dribbble.com/users/1003944/screenshots/6941095/1.1.gif" width="60%" height="10%">
 
 ## 🌟 Features
 
