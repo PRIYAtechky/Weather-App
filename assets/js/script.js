@@ -1,9 +1,11 @@
 // script.js
 
+// Select DOM elements
 const weatherContainer = document.querySelector('.weather-container');
 const locationForm = document.getElementById('location-form');
 const locationInput = document.getElementById('location-input');
 
+// Mock weather data (used instead of API for demo)
 const mockWeatherData = {
     name: 'Cuddalore',
     main: {
@@ -17,12 +19,14 @@ const mockWeatherData = {
     ]
 };
 
+// Handle form submission and fetch weather
 function getWeather(event) {
     event.preventDefault();
     const location = locationInput.value;
     displayWeather(mockWeatherData, location);
 }
 
+// Display weather details in UI
 function displayWeather(data, location) {
     const { name, main, weather } = data;
     const { temp } = main;
@@ -43,6 +47,7 @@ function displayWeather(data, location) {
     updateWeatherBackground(description);
 }
 
+// Update background theme based on weather
 function updateWeatherBackground(description) {
     // Remove all existing weather classes
     weatherContainer.classList.remove('sunny', 'cloudy', 'rainy');
@@ -59,3 +64,4 @@ function updateWeatherBackground(description) {
 
 // Event listener for form submission
 locationForm.addEventListener('submit', getWeather);
+
