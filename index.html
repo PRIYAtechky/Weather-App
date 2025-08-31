@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Page setup and stylesheet -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+    <!-- Weather App Container -->
     <div class="weather-app">
         <div class="weather-container">
             <h2 class="location">Weather Forecast</h2>
+ 
+            <!-- Location Input Form -->
             <form id="location-form">
                 <input type="text" id="location-input" placeholder="Enter location" required>
                 <button type="submit">Get Weather</button>
             </form>
+
+            <!-- Weather Information Display -->
             <div class="weather-info">
                 <img src="assets/img/img1.png" alt="Weather Icon" class="weather-icon">
                 <div class="temperature">--°C</div>
@@ -22,6 +28,8 @@
         </div>
     </div>
 
+    <!-- JavaScript File -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
+
