@@ -1,7 +1,9 @@
 /* styles.css */
 
+/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f0f0f0;
@@ -12,6 +14,7 @@ body {
     margin: 0;
 }
 
+/* Main Weather App Layout */
 .weather-app {
     background: linear-gradient(to bottom right, #2980b9, #6dd5fa);
     display: flex;
@@ -21,6 +24,7 @@ body {
     width: 100%;
 }
 
+/* Weather Card Container */
 .weather-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
@@ -32,10 +36,12 @@ body {
     animation: fade-in 0.5s ease;
 }
 
+/* Weather Info Section */
 .weather-info {
     margin-top: 20px;
 }
 
+/* Temperature Display */
 .temperature {
     font-size: 48px;
     font-weight: 500;
@@ -43,6 +49,7 @@ body {
     margin: 10px 0;
 }
 
+/* Weather Description */
 .description {
     font-size: 20px;
     color: #666666;
@@ -50,6 +57,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* Weather Icon */
 .weather-icon {
     width: 100px;
     margin: 0 auto;
@@ -57,6 +65,7 @@ body {
     animation: zoom-in 0.5s ease;
 }
 
+/* Input Field */
 #location-input {
     padding: 12px;
     margin-right: 5px;
@@ -68,6 +77,7 @@ body {
     color: #333333;
 }
 
+/* Button Styles */
 button {
     padding: 12px 24px;
     background-color: #3498db;
@@ -84,6 +94,7 @@ button:hover {
     background-color: #2980b9;
 }
 
+/* Animations */
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -116,3 +127,4 @@ button:hover {
 .weather-container.rainy {
     background: linear-gradient(to bottom right, #85a3bf, #ffffff);
 }
+
